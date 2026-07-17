@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-17T15:42:00-04:00",
+  "timezone": "America/New_York",
+  "market": {
+    "venue": "NYSE/Nasdaq US regular session",
+    "status": "open",
+    "regularHours": "09:30-16:00 ET",
+    "calendarVerified": true
+  },
+  "watchlist": [
+    {
+      "symbol": "NVDA",
+      "price": 203.025,
+      "previousClose": 207.4,
+      "percentChange": -2.1094,
+      "extendedHoursPercentChange": null,
+      "volume": 119044437,
+      "relativeVolume": 0.9648,
+      "mover10Percent": false,
+      "signal": "HOLD",
+      "confidence": "medium",
+      "catalyst": "The broader semiconductor group is under pressure as investors reassess the AI trade despite strong industry demand signals.",
+      "riskNotes": "AI-capex expectations and the stock's valuation can amplify reversals; today's move and volume do not confirm a 10% mover event.",
+      "optionsResearch": "NO SETUP — live option-chain liquidity and implied volatility were not independently verified. Avoid acting on a structure without checking spread width, expiration, assignment exposure, and maximum loss."
+    },
+    {
+      "symbol": "TSLA",
+      "price": 381.87,
+      "previousClose": 391.06,
+      "percentChange": -2.35,
+      "extendedHoursPercentChange": null,
+      "volume": 26132737,
+      "relativeVolume": 0.8933,
+      "mover10Percent": false,
+      "signal": "HOLD",
+      "confidence": "low",
+      "catalyst": "No material same-day company catalyst was verified; the decline is consistent with the session's broader risk-off tone in high-beta technology shares.",
+      "riskNotes": "Delivery, margin, autonomy, regulatory, and valuation expectations can produce abrupt gaps; relative volume is below the recent four-session average.",
+      "optionsResearch": "NO SETUP — live option-chain liquidity and implied volatility were not independently verified. Defined-risk spreads can still lose the full premium and may carry assignment risk."
+    },
+    {
+      "symbol": "PLTR",
+      "price": 131.9,
+      "previousClose": 134.44,
+      "percentChange": -1.8893,
+      "extendedHoursPercentChange": null,
+      "volume": 26251017,
+      "relativeVolume": 0.7253,
+      "mover10Percent": false,
+      "signal": "HOLD",
+      "confidence": "low",
+      "catalyst": "No material same-day company catalyst was verified; trading is consistent with pressure across richly valued AI-related shares.",
+      "riskNotes": "Valuation sensitivity is high and relative volume is well below the recent four-session average, reducing conviction in today's direction.",
+      "optionsResearch": "NO SETUP — live chain, implied volatility, and spread quality were not verified. Do not infer an options edge from the stock move alone."
+    },
+    {
+      "symbol": "AMD",
+      "price": 495.0,
+      "previousClose": 500.94,
+      "percentChange": -1.1858,
+      "extendedHoursPercentChange": null,
+      "volume": 25246052,
+      "relativeVolume": 1.0192,
+      "mover10Percent": false,
+      "signal": "HOLD",
+      "confidence": "medium",
+      "catalyst": "AMD is participating in the broad semiconductor selloff while volume is close to its recent four-session average.",
+      "riskNotes": "Competitive positioning, AI accelerator expectations, and premium valuation can create large swings; today's decline remains far below the 10% alert threshold.",
+      "optionsResearch": "NO SETUP — live option pricing and volatility were not verified. Any later structure should be defined-risk and sized for a possible total premium loss."
+    },
+    {
+      "symbol": "AAPL",
+      "price": 332.96,
+      "previousClose": 333.26,
+      "percentChange": -0.09,
+      "extendedHoursPercentChange": null,
+      "volume": 47405894,
+      "relativeVolume": 0.9317,
+      "mover10Percent": false,
+      "signal": "HOLD",
+      "confidence": "medium",
+      "catalyst": "Apple Intelligence was registered with China's cyberspace regulator this week, but the stock is essentially flat in today's regular session.",
+      "riskNotes": "China execution, regulatory approval, product-cycle expectations, and a recent run toward record levels leave limited margin for disappointment.",
+      "optionsResearch": "NO SETUP — live option-chain liquidity and implied volatility were not verified. A catalyst near earnings can raise premium and total-loss risk."
+    },
+    {
+      "symbol": "COIN",
+      "price": 156.785,
+      "previousClose": 160.49,
+      "percentChange": -2.3086,
+      "extendedHoursPercentChange": null,
+      "volume": 5046280,
+      "relativeVolume": 0.7553,
+      "mover10Percent": false,
+      "signal": "TRIM / SELL WATCH",
+      "confidence": "medium",
+      "catalyst": "Bitcoin fell below $63,000 amid a risk-off session, increasing pressure on crypto-linked equities such as Coinbase.",
+      "riskNotes": "COIN has high sensitivity to crypto prices, trading volumes, regulation, and risk appetite; below-average relative volume limits confirmation.",
+      "optionsResearch": "NO SETUP — live chain, implied volatility, and spreads were not verified. Crypto-linked gap risk can overwhelm even defined-risk directional timing."
+    }
+  ],
+  "alerts": {
+    "thresholdPercent": 10,
+    "count": 0,
+    "symbols": [],
+    "message": "No watchlist symbol has moved 10% or more in absolute terms versus the prior close."
+  },
+  "dataQuality": {
+    "quoteSource": "Yahoo Finance chart endpoint",
+    "relativeVolumeMethod": "Current reported volume divided by the mean reported volume of the preceding four sessions.",
+    "extendedHours": "Not applicable while the regular session is open.",
+    "limitations": [
+      "Quotes may be delayed and should be verified with a broker or exchange feed before any decision.",
+      "No Robinhood account or order-routing connector is configured.",
+      "Signals are research labels, not personalized investment advice or trade guarantees."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NYSE 2026 trading calendar",
+      "url": "https://beta.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    },
+    {
+      "label": "Yahoo Finance chart quote API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    },
+    {
+      "label": "Reuters: Wall Street set to open lower as chip rout extends",
+      "url": "https://sa.marketscreener.com/news/wall-st-set-to-open-lower-as-chip-rout-extends-netflix-slides-ce7f51dad88cf325",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    },
+    {
+      "label": "Reuters: Stocks slump on chip selloff",
+      "url": "https://sa.marketscreener.com/news/stocks-slump-on-chip-selloff-oil-set-for-weekly-gain-ce7f5ed3de89ff23",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    },
+    {
+      "label": "Reuters: Apple Intelligence registered with China's regulator",
+      "url": "https://www.investing.com/news/stock-market-news/apple-intelligence-ai-service-registered-with-chinas-cyberspace-regulator-4792499",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    },
+    {
+      "label": "The Block: Bitcoin slides below $63,000",
+      "url": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days",
+      "accessedAt": "2026-07-17T15:42:00-04:00"
+    }
+  ]
+}
