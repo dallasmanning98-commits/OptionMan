@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "retentionLimit": 40,
+  "snapshots": [
+    {
+      "generatedAt": "2026-07-19T01:50:10-04:00",
+      "quoteAsOf": "2026-07-17T16:00:01-04:00",
+      "marketStatus": "closed",
+      "alerts": [],
+      "quotes": [
+        {
+          "symbol": "NVDA",
+          "price": 202.81,
+          "percentChange": -2.2131,
+          "relativeVolume": 1.1673,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "TSLA",
+          "price": 380.84,
+          "percentChange": -2.6134,
+          "relativeVolume": 1.0706,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "PLTR",
+          "price": 132.38,
+          "percentChange": -1.5323,
+          "relativeVolume": 0.8798,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "AMD",
+          "price": 495.76,
+          "percentChange": -1.0341,
+          "relativeVolume": 1.2947,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "AAPL",
+          "price": 333.74,
+          "percentChange": 0.144,
+          "relativeVolume": 1.2454,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "COIN",
+          "price": 157.12,
+          "percentChange": -2.0998,
+          "relativeVolume": 0.9698,
+          "signal": "TRIM / SELL WATCH"
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-07-17T15:42:00-04:00",
+      "marketStatus": "open",
+      "alerts": [],
+      "quotes": [
+        {
+          "symbol": "NVDA",
+          "price": 203.025,
+          "percentChange": -2.1094,
+          "relativeVolume": 0.9648,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "TSLA",
+          "price": 381.87,
+          "percentChange": -2.35,
+          "relativeVolume": 0.8933,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "PLTR",
+          "price": 131.9,
+          "percentChange": -1.8893,
+          "relativeVolume": 0.7253,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "AMD",
+          "price": 495.0,
+          "percentChange": -1.1858,
+          "relativeVolume": 1.0192,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "AAPL",
+          "price": 332.96,
+          "percentChange": -0.09,
+          "relativeVolume": 0.9317,
+          "signal": "HOLD"
+        },
+        {
+          "symbol": "COIN",
+          "price": 156.785,
+          "percentChange": -2.3086,
+          "relativeVolume": 0.7553,
+          "signal": "TRIM / SELL WATCH"
+        }
+      ]
+    }
+  ]
+}
